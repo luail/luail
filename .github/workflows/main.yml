@@ -21,4 +21,5 @@ jobs:
           git remote set-url origin https://github.com/luail/luail
           git add -A .
           git commit -m "generated"
-          git push https://${GITHUB_TOKEN}github.com/luail/luail
+          git push https://${GITHUB_TOKEN}@github.com/luail/luail.git
+
